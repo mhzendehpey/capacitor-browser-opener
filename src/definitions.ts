@@ -1,3 +1,7 @@
+export interface OpenInDefaultParameterModel {
+  /** The URL to be opened. It must contain either 'http' or 'https' as the protocol prefix. */
+  url: string;
+}
 export interface BrowserOpenerPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  openInExternalBrowser(model: OpenInDefaultParameterModel): Promise<void>;
 }

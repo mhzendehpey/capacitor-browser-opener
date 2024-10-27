@@ -11,9 +11,36 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`openInExternalBrowser(...)`](#openinexternalbrowser)
+* [Interfaces](#interfaces)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### openInExternalBrowser(...)
+
+```typescript
+openInExternalBrowser(model: OpenInDefaultParameterModel) => Promise<void>
+```
+
+| Param       | Type                                                                                |
+| ----------- | ----------------------------------------------------------------------------------- |
+| **`model`** | <code><a href="#openindefaultparametermodel">OpenInDefaultParameterModel</a></code> |
+
+--------------------
+
+
+### Interfaces
+
+
+#### OpenInDefaultParameterModel
+
+| Prop      | Type                | Description                                                                            |
+| --------- | ------------------- | -------------------------------------------------------------------------------------- |
+| **`url`** | <code>string</code> | The URL to be opened. It must contain either 'http' or 'https' as the protocol prefix. |
+
 </docgen-api>
