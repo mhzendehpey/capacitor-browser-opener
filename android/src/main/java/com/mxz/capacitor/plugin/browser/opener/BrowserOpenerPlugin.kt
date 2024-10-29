@@ -40,8 +40,11 @@ class BrowserOpenerPlugin : Plugin() {
     @PluginMethod
     fun reload(call: PluginCall) {
         try {
-            this.bridge.webView.reload()
-            call.resolve()
+            val webView = this.bridge.webView;
+            webView.post {
+                webView.reload()
+                call.resolve()
+            }
         } catch (e: Exception) {
             call.reject("An error occurred while trying to reload webView: ${e.message}")
         }
