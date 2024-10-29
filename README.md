@@ -1,6 +1,6 @@
 # capacitor-browser-opener
 
-A basic alternarive to capacitor's in-app browser without increasing minSdk
+A basic alternative to capacitor's in-app browser without increasing minSdk
 
 ## Install
 
@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`openInExternalBrowser(...)`](#openinexternalbrowser)
+* [`reload()`](#reload)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -30,6 +31,15 @@ openInExternalBrowser(model: OpenInDefaultParameterModel) => Promise<void>
 | Param       | Type                                                                                |
 | ----------- | ----------------------------------------------------------------------------------- |
 | **`model`** | <code><a href="#openindefaultparametermodel">OpenInDefaultParameterModel</a></code> |
+
+--------------------
+
+
+### reload()
+
+```typescript
+reload() => void
+```
 
 --------------------
 

@@ -4,4 +4,5 @@ export interface OpenInDefaultParameterModel {
 }
 export interface BrowserOpenerPlugin {
   openInExternalBrowser(model: OpenInDefaultParameterModel): Promise<void>;
+  reload(): void;
 }

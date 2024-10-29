@@ -37,6 +37,16 @@ class BrowserOpenerPlugin : Plugin() {
         }
     }
 
+    @PluginMethod
+    fun reload(call: PluginCall) {
+        try {
+            this.bridge.webView.reload()
+            call.resolve()
+        } catch (e: Exception) {
+            call.reject("An error occurred while trying to reload webView: ${e.message}")
+        }
+    }
+
     /**
      * Determines if URL scheme is valid - it must start with either 'http://' or 'https://'
      * @param url string with URL to validate

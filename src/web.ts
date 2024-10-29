@@ -9,4 +9,8 @@ export class BrowserOpenerWeb extends WebPlugin implements BrowserOpenerPlugin {
   openInExternalBrowser(model: OpenInDefaultParameterModel): Promise<void> {
     throw this.unimplemented('Not implemented on web.');
   }
+
+  reload(): void {
+    window?.location?.reload();
+  }
 }
