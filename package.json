@@ -1,6 +1,6 @@
 {
   "name": "capacitor-browser-opener",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A basic alternative to capacitor's in-app browser without increasing minSdk",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
