@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-browser-opener",
+  "name": "@kookaat/capacitor-browser-opener",
   "version": "8.0.0",
   "description": "A basic alternative to capacitor's in-app browser without increasing minSdk",
   "main": "dist/plugin.cjs.js",
@@ -76,5 +76,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "publishConfig": {
+    "registry": "https://jfrog.kookaat.ir/artifactory/api/npm/npm/"
   }
 }
