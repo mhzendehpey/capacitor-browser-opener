@@ -1,6 +1,6 @@
 {
   "name": "@atrobot/capacitor-browser-opener",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "description": "A basic alternative to capacitor's in-app browser without increasing minSdk",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
