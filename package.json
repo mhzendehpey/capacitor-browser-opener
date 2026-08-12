@@ -1,5 +1,5 @@
 {
-  "name": "@kookaat/capacitor-browser-opener",
+  "name": "@atrobot/capacitor-browser-opener",
   "version": "8.0.0",
   "description": "A basic alternative to capacitor's in-app browser without increasing minSdk",
   "main": "dist/plugin.cjs.js",
@@ -78,6 +78,6 @@
     }
   },
   "publishConfig": {
-    "registry": "https://jfrog.kookaat.ir/artifactory/api/npm/npm/"
+    "registry": "https://nexus.20dev.ir/repository/npm-hosted/"
   }
 }
